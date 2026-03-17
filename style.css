@@ -1,0 +1,113 @@
+body {
+	background: rgb(240,240,240);
+	.perfect-circle {
+  width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.container {	
+	border-top: 1px solid black;
+	border-right: 1px solid black; 
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-color: 5px solid black;
+	margin: 40px;
+	padding: 60px;
+	box-shadow: 5px 5px 3px;
+	background: rgb(253,222,126);
+	text-align: center;
+	border-radius:5px;
+}
+
+.card-white {
+	border-top: 1px solid black;
+	border-right: 1px solid black; 
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-color: 5px solid black;
+	margin: 20px;
+	padding: 15px;
+	background: rgb(242,240,236);
+	text-align:center;
+	border-radius:5px;
+}
+
+@media (max-width: 960px){
+	body {
+		width:700px;
+	}
+}
+
+@media (max-width: 720px){
+	body {
+		width:500px;
+	}
+}
+
+@media (max-width: 520px){
+	body {
+		width:300px;
+	}
+}
+
+h1, h2 {
+	font-family: Courier;
+}
+h1 {
+	color:rgb(214,101,101);
+	font-weight:bolder;
+	font-size: 36px;
+}
+h2 {
+	color: rgb(1,181,0);
+	font-size: 28px;
+}
+
+.buton {
+	padding:20px;
+	background:rgb(122, 178, 230);
+	margin:5px;
+	border-radius:4px;
+	width:160px;
+	text-align:center;
+	margin:20px auto;
+}
+
+.ieseg {
+	color:black;
+}
+
+.ieseg:hover {
+	color:purple;
+}
+
+a {
+	font-size: 22px;
+}
+p {
+	color:rgb(24,32,35);
+	font-size: 22px;
+	font-family:;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: black
+}
+
+.list-inline i:hover {
+	font-size:50px;
+	color: purple;
+}
+
